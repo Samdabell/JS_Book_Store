@@ -5,7 +5,8 @@ var Book = function(title, author, genre, price, pages){
   this.author = author;
   this.genre = genre;
   this.price = price;
-  this.pages = pages
+  this.pages = pages;
+  this.controversial = false;
 }
 
 Book.prototype.info = function() {
